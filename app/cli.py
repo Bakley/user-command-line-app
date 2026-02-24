@@ -50,7 +50,7 @@ def main():
     
     # Select and run 
     try:
-        content = "Hello world"
+        content = "Hello World!"
         print(content)
     except Exception as e:
         print(f"Error processing input: {e}", file=sys.stderr)
